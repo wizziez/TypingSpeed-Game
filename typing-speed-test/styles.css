@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#text-display {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    min-height: 50px;
+    text-align: left;
+}
+
+#text-input {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#start-button, #pause-button, #theme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#start-button {
+    background: #007bff;
+}
+
+#start-button:hover {
+    background: #0056b3;
+}
+
+#pause-button {
+    background: #6c757d;
+}
+
+#pause-button:hover {
+    background: #5a6268;
+}
+
+#theme-button {
+    background: #28a745;
+}
+
+#theme-button:hover {
+    background: #218838;
+}
+
+#timer, #results, #high-score, #wpm-display {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.light-theme {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.dark-theme {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    #text-input {
+        height: 80px;
+    }
+}
