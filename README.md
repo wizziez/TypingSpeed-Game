@@ -1,6 +1,6 @@
 # Typing Game
 
-A fun and interactive typing game to improve your typing speed and accuracy. The game includes a leaderboard to track high scores.
+A fun and interactive typing game to improve your typing speed and accuracy. 
 
 ## Features
 
