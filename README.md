@@ -1,10 +1,10 @@
-# Typing Game
+Typing Game 🎯
+A fun and interactive typing game designed to boost your typing speed and accuracy!
 
-A fun and interactive typing game to improve your typing speed and accuracy. 
+Features 🚀
+✅ Engaging typing practice with diverse sentences.
+✅ Real-time Words Per Minute (WPM) tracking.
+✅ Accuracy monitoring to improve precision.
+✅ Theme switching (light & dark modes) for a personalized experience.
 
-## Features
-
-- Typing practice with a variety of sentences.
-- Real-time Words Per Minute (WPM) calculation.
-- Accuracy tracking.
-- Theme switching (light and dark modes).
+Perfect for anyone looking to enhance their typing skills in an enjoyable way! ⌨️🔥
